@@ -22,7 +22,7 @@ char **strtow(char *str, char *d)
 
 	f (numwords == 0)
 		return (NULL);
-	s = malloc((1 + numwords) * szeof(char *));
+	s = malloc((1 + numwords) * sizeof(char *));
 	f (!s)
 		return (NULL);
 	for (n = 0, o = 0; o < numwords; o++)
