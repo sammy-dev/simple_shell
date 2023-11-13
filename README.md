@@ -104,6 +104,66 @@ $ cat test_ls_2 | ./hsh
 hsh main.c shell.c test_ls_2
 ```
 
+## Tasks
+
+### 0. Betty would be proud
+- Write a beautiful code that passes the Betty checks.
+- Repository: [simple_shell](GitHub repository link)
+
+### 1. Simple shell 0.1
+- Write a UNIX command line interpreter.
+- Usage: `simple_shell`
+- Handle basic commands and errors.
+
+### 2. Simple shell 0.2
+- Handle command lines with arguments.
+
+### 3. Simple shell 0.3
+- Handle the PATH.
+- Avoid unnecessary fork calls.
+
+### 4. Simple shell 0.4
+- Implement the exit built-in command.
+
+### 5. Simple shell 1.0
+- Implement the env built-in command.
+
+### 6. Simple shell 0.1.1
+- Write your own getline function.
+- Use a buffer to optimize reading.
+
+### 7. Simple shell 0.2.1
+- Avoid using strtok.
+
+### 8. Simple shell 0.4.1
+- Handle arguments for the built-in exit command.
+
+### 9. setenv, unsetenv
+- Implement the setenv and unsetenv built-in commands.
+
+### 10. cd
+- Implement the built-in command cd.
+
+### 11. ;
+- Handle the commands separator ;.
+
+### 12. && and ||
+- Handle the shell logical operators && and ||.
+
+### 13. alias
+- Implement the alias built-in command.
+
+### 14. Variables
+- Handle variables replacement.
+- Handle $? and $$ variables.
+
+### 15. Comments
+- Handle comments (#).
+
+### 16. File as input
+- Accept a file as a command line argument.
+- Execute commands from the file.
+
 ## Conclusion
 This project will provide a comprehensive understanding of Unix, shell programming, and system calls, enhancing your proficiency in system-level programming and software development. It encourages collaboration, adherence to coding standards, and the development of robust and efficient code.
 ```
