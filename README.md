@@ -1,4 +1,4 @@
-# Custom Shell Project
+#0x16. C - Simple Shell
 
 ## Learning Objectives
 At the end of this project, you will have a deep understanding of various aspects of the Unix operating system, including its history, key figures, and fundamental concepts. Additionally, you will gain practical knowledge in shell programming, process management, and system calls. The project aims to enhance your ability to explain the following topics without external assistance:
