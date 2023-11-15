@@ -1,7 +1,6 @@
 #include "shell.h"
 
 /**
- * 
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
  *  Return: exits with a given exit status
@@ -11,7 +10,8 @@ int _myexit(info_t *info)
 {
 	int exitchecker;
 
-	if (info->argv[1])  
+	if (info->argv[1])
+
 	{
 		exitchecker = _erratoi(info->argv[1]);
 		if (exitchecker == -1)

@@ -42,10 +42,8 @@ int _eputchar(char c)
 }
 
 /**
- * 
  * @c: The character to print
  * @fd: The filedescriptor to write to
- *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
