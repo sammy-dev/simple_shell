@@ -9,7 +9,6 @@
 int _myexit(info_t *info)
 {
 	int exitchecker;
-
 	if (info->argv[1])  
 	{
 		exitchecker = _erratoi(info->argv[1]);
