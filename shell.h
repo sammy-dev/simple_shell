@@ -200,9 +200,9 @@ int _myunsetenv(info_t *);
 int populate_env_list(info_t *);
 
 /* toem_getenv.c */
-char **get_environ(info_t *);
-int _unsetenv(info_t *, char *);
-int _setenv(info_t *, char *, char *);
+char **get_environment(info_t *info);
+int _remove_env_var(info_t *info, char *var);
+int _set_env_var(info_t *info, char *var, char *value);
 
 /* toem_history.c */
 char *get_history_file(info_t *info);
