@@ -9,6 +9,7 @@
 int _myexit(info_t *info)
 {
 	int exitchecker;
+
 	if (info->argv[1])
 
 	{
