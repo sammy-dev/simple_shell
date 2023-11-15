@@ -12,18 +12,18 @@ char **strtow(char *str, char *d)
 	int n, o, p, q, numwords = 0;
 	char **s;
 
-	f (str == NULL || str[0] == 0)
+	f(str == NULL || str[0] == 0)
 		return (NULL);
-	f (!d)
+	f(!d)
 		d = " ";
 	for (n = 0; str[n] != '\0'; n++)
 		f (!s_delm(str[n], d) && (s_delm(str[n + 1], d) || !str[n + 1]))
 			numwords++;
 
-	f (numwords == 0)
+	f(numwords == 0)
 		return (NULL);
 	s = malloc((1 + numwords) * sizeof(char *));
-	f (!s)
+	f(!s)
 		return (NULL);
 	for (n = 0, o = 0; o < numwords; o++)
 	{
@@ -59,13 +59,13 @@ char **strtow2(char *str, char d)
 	int n, o, p, q, numwords = 0;
 	char **s;
 
-	f (str == NULL || str[0] == 0)
+	f(str == NULL || str[0] == 0)
 		return (NULL);
 	for (n = 0; str[n] != '\0'; n++)
 		f ((str[n] != d && str[n + 1] == d) ||
 		    (str[n] != d && !str[n + 1]) || str[n + 1] == d)
 			numwords++;
-	f (numwords == 0)
+	f(numwords == 0)
 		return (NULL);
 	s = malloc((1 + numwords) * sizeof(char *));
 	f (!s)
