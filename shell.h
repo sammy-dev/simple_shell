@@ -187,6 +187,7 @@ ssize_t buffer_input(info_t *info, char **commandBuffer, size_t *bufferSize);
 int _getline(info_t *, char **, size_t *);
 void sigintHandler(int);
 ssize_t get_user_input(info_t *info);
+void sigintHandler(__attribute__((unused))int sig_num);
 
 /* toem_getinfo.c */
 void clear_info(info_t *);
